@@ -39,10 +39,43 @@ Use Case: Instead of creating 1,000 separate objects with the same color, we sha
 
 # UML Diagram:
 
-<img width="1457" height="434" alt="image" src="https://github.com/user-attachments/assets/97b89416-d48a-4a38-b4b2-4d3720132c67" />
+<img width="800" height="401" alt="image" src="https://github.com/user-attachments/assets/c124e3fd-9cb1-41bd-bf76-a7780d158d66" />
 
+1. Flyweight (Interface)
+
+Role:
+Defines the common interface for all flyweight objects.
+
+Responsibilities: Declares the operation(extrinsicData : Object) method, which accepts external (context-specific) data that varies between objects. Ensures that all concrete flyweights can be used interchangeably by the client.
+
+2. ConcreteFlyweight
+
+Role: Implements the Flyweight interface and represents the shared object that can be reused.
+
+Attributes:
+intrinsicState : Object — internal, shared state that doesn’t change across instances (e.g., color, texture, font).
+
+Methods:
+operation(extrinsicData : Object) — performs the operation using both intrinsic and provided extrinsic data.
+
+3. FlyweightFactory
+
+Role: Responsible for creating and managing flyweight objects. It ensures that flyweights are reused instead of being created repeatedly.
+
+Methods:
+get(key : Object) : Flyweight — Returns an existing flyweight if one exists for the given key; otherwise, creates a new one and stores it.
+
+4. Client
+
+Role:
+The Client interacts with the system using the Flyweight objects.
+
+Responsibilities:
+Requests flyweights from the FlyweightFactory.
 
 # Example Code (Simple) (C#)
+
+
 
 ```
 // Flyweight interface
