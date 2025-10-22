@@ -2,19 +2,19 @@
 
 The Lesson Plan:
 
-[1. Introduction](https://github.com/Wadood3/SED505-ASG3/main/README.md#introduction)
+[1. Introduction](https://github.com/Wadood3/SED505-ASG3/blob/main/README.md#introduction)
 
-[2. Videos](https://github.com/Wadood3/SED505-ASG3/main/README.md#videos)
+[2. Videos](https://github.com/Wadood3/SED505-ASG3/blob/main/README.md#videos)
 
-[3. Rationale](https://github.com/Wadood3/SED505-ASG3/main/README.md#rationale)
+[3. Rationale](https://github.com/Wadood3/SED505-ASG3/blob/main/README.md#rationale)
 
-[4. UML Diagram](https://github.com/Wadood3/SED505-ASG3/main/README.md#uml-diagram)
+[4. UML Diagram](https://github.com/Wadood3/SED505-ASG3/blob/main/README.md#uml-diagram)
 
-[5. Example Code (Simple)](https://github.com/Wadood3/SED505-ASG3/main/README.md#example-code-simple-c)
+[5. Example Code (Simple)](https://github.com/Wadood3/SED505-ASG3/blob/main/README.md#example-code-simple-c)
 
-[6. Common Usage](https://github.com/Wadood3/SED505-ASG3/main/README.md#common-usage)
+[6. Common Usage](https://github.com/Wadood3/SED505-ASG3/blob/main/README.md#common-usage)
 
-[7. Example Code (Complex)](https://github.com/Wadood3/SED505-ASG3/main/README.md#example-code-complex-c)
+[7. Example Code (Complex)](https://github.com/Wadood3/SED505-ASG3/blob/main/README.md#example-code-complex-c)
 
 The Flyweight Design Pattern
 
