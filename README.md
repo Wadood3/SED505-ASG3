@@ -1,4 +1,4 @@
-# SED505 - Assignment 3 - Investigation of Design Patterns
+# SED505 - Assignment 3 - Investigation of Design Patterns - FlyWeight Design Pattern
 
 The Lesson Plan:
 
@@ -15,8 +15,6 @@ The Lesson Plan:
 [6. Common Usage](https://github.com/Wadood3/SED505-ASG3/blob/main/README.md#common-usage)
 
 [7. Example Code (Complex)](https://github.com/Wadood3/SED505-ASG3/blob/main/README.md#example-code-complex-c)
-
-The Flyweight Design Pattern
 
 # Introduction
 
